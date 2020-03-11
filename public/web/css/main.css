@@ -1,0 +1,1721 @@
+@font-face {
+    font-family: DroidArabicKufi;
+    src: url(../../fonts/Droid_Arabic_Kufi.ttf);
+  }
+
+@font-face {
+font-family: MuseoSansCyrlW03500;
+src: url(../../fonts/Museo_Sans_Cyrl_W03_500.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: DroidArabicKufi;
+    /* perspective: 2000px; */
+
+}
+.required label:after {
+    content:" *";
+    color: red;
+    font-size: 15px;
+    position: relative;
+    top: 2px;
+}
+.asterisk h2:before {
+    content:" *";
+    color: red;
+    font-size: 25px;
+    position: relative;
+    top: 0;
+    left: 5px;
+}
+
+#news-bar {
+    width: 100%;
+}
+
+#news-bar:hover {
+    transition: 0.37s;
+}
+
+#news-bar a {
+    padding:8px 2px;
+    color: #fff;
+    text-decoration: none;
+}
+#news-bar span {
+    color: #fff;
+}
+
+#news-bar a:hover {
+    transition: 0.37s;
+    color: #fff;
+}
+
+.hvr-float {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-float:hover,
+.hvr-float:focus,
+.hvr-float:active {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+
+.hidden {
+    display: none!important;
+}
+
+.profile-sign{
+    margin-bottom: 0;
+}
+.profile-sign li{
+    line-height: 35px;
+}
+.profile-sign li a{
+    color: #fff;
+}
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+.color-white{
+    color: white;
+}
+.border-radius-50{
+    border-radius: 50%;
+}
+.bg_main{
+    background: #0c5e47;
+}
+.color_main{
+    color: #0c5e47;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+/* ============================================================================================================= */
+/* ============================================================================================================= */
+/* ============================================ start index page =============================================== */
+/* ============================================================================================================= */
+/* ============================================================================================================= */
+
+/* ======================================== start header ================================== */
+/* +++++++ start slide ++++++++ */
+.slide_image{
+    width: 100% !important;
+    height: 100vh;
+}
+.button_arrow{
+    height: 154px;
+    width: 77px;
+    background: white;
+    color: #0c5e47;
+    position: absolute;
+    left: 0;
+    top: 410px;
+}
+.arrow_right{
+    border-radius: 20px 0 0 20px;
+}
+.arrow_left{
+    border-radius: 0 20px 20px 0;
+}
+.button_arrow:active,
+.button_arrow:focus,
+.button_arrow:hover{
+    color: #0c5e47;
+
+}
+.arrow_left_right{
+    /* z-index: 999999; */
+    font-size: 30pt;
+    /* font-weight: 20px; */
+}
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 40px;
+    height: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: white;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+.carousel-indicators .active {
+    background-color: #0c5e47;;
+}
+/* +++++++ end slide ++++++++ */
+/* +++++++ start head +++++++ */
+.all_head hr{
+    background: #66be44;
+    height: 2px;
+    padding: 0;
+    margin: 0;
+}
+.head_background{
+    background: #0c5e47;
+}
+.head_background .head_h4{
+    color: white;
+    margin: 0;
+    padding: 10px;
+    font-size: 15px;
+}
+.head_logo{
+    background: white;
+}
+.logo{
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+.clock{
+    text-align: center;
+    height: 170px;
+}
+.clock i{
+    color: #66be44;
+    font-size: 55px;
+}
+.time_word{
+    margin-bottom: 5px;
+}
+.time_clock{
+    color: #0c5e47;
+}
+.time_work span{
+    font-size: 17px;
+}
+/* +++++++ end head +++++++ */
+/* +++++++ start nav +++++++ */
+.all_nav hr{
+    background: #888888;
+    height: 1px;
+}
+.navbar-light .navbar-nav .nav-item .nav-link{
+    padding: 8px 20px;
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item .nav-link:active,
+.navbar-light .navbar-nav .nav-item .nav-link:focus{
+    color: #0c5e47 !important;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #0c5e47 !important;
+}
+.all_head{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99999999999999;
+}
+/* +++++++ end nav +++++++ */
+/* ======================================== end header ================================== */
+/* ======================================== start about us ================================== */
+.h1_about{
+    color: #0c5e47;
+}
+.h1_about::after{
+    content: "";
+    color: #0c5e47;
+    background: #0c5e47;
+    width: 43%;
+    height: 3px;
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    transform: translate(-66%);
+}
+.paragraph_about{
+    color: #888888;
+    padding: 0 20%;
+}
+/* ======================================== end about us ================================== */
+/* ======================================== start services ================================== */
+.h2_services{
+    color: #0c5e47;
+}
+.h2_services::after{
+    content: "";
+    color: #0c5e47;
+    background: #0c5e47;
+    width: 11%;
+    height: 3px;
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    transform: translate(-404%);
+}
+.img_services{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+.h5_services{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.height_paragraph_services{
+    min-height: 90px;
+}
+.paragraph_services{
+    font-size: 15px;
+}
+.h6_services_button{
+    color: #66be44;
+    font-weight: bold;
+
+}
+/* ======================================== end services ================================== */
+/* ======================================== start jobs ================================== */
+.background_color_job{
+    background: #0c5e47;
+}
+.h2_jobs{
+    color: white;
+}
+/* .all_jobs{
+    position: absolute;
+    top: 0;
+    width: 100%;
+} */
+.background_img_job{
+    /* height: 96vh; */
+    background: url(../../images/map-image.png) no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+/* .h2_jobs::after{
+    content: "";
+    color: white;
+    background: white;
+    width: 18%;
+    height: 3px;
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    transform: translate(-227%);
+} */
+.h5_job_kind{
+    font-weight: bold;
+}
+.job_kind_right{
+    margin: 0 0 20px 0;
+    background: white;
+    padding: 10px 20px;
+}
+.job_kind_left{
+    text-align: right;
+    margin: 0 0 0 auto;
+    background: white;
+    padding: 10px 20px;
+}
+.link_job a{
+    color: black;
+    text-decoration: none;
+    width: 100%;
+}
+.link_job a:hover{
+    color: #0c5e47;
+}
+.button_job_view{
+    background: white;
+    padding: 9px 22px;
+    color: #0c5e47;
+    border: 1px solid #66be44;
+}
+.button_job_view:hover{
+    color: white;
+    background: #0c5e47;
+    border: 1px solid #66be44;
+}
+/* ======================================== end jobs ================================== */
+/* ======================================== start interview tips ================================== */
+.all_interview_tips{
+    width: 100%;
+    padding: 0 30px;
+}
+.question_shadow{
+    -webkit-box-shadow: 0px 0px 17px 1px rgba(136,136,136,0.5);
+    -moz-box-shadow: 0px 0px 17px 1px rgba(136,136,136,0.5);
+    box-shadow: 0px 0px 17px 1px rgba(136,136,136,0.5);
+}
+.interview_question{
+    padding: 20px 36px;
+    background: #ebebeb;
+    width: 100%;
+}
+.interview_answer{
+    padding: 20px 36px;
+    background: white;
+    width: 100%;
+}
+.interview_hide{
+    padding: 20px 36px;
+    background: #ebebeb;
+    width: 100%;
+}
+.question_span{
+    margin: -7px 0 0 0;
+    padding: 0;
+    font-weight: bold;
+    color: #0c5e47;
+    text-align: right;
+    padding-bottom: 5px
+}
+.answer_span{
+    margin: -7px 0 0 0;
+    padding: 0;
+    font-weight: bold;
+    color: #0c5e47;
+    text-align: right;
+    padding-bottom: 5px
+}
+.question_h5{
+    font-weight: bold;
+}
+.hide_question{
+    font-weight: bold;
+    color: #0c5e47;
+}
+.answer_para{
+    color: #888888;
+}
+.arrow_color_i{
+    color: #0c5e47;
+}
+.hide_all{
+    float: right;
+    width: 100%;
+    padding: 0 85px;
+    cursor: pointer;
+}
+.question_shadow .active{
+    display: block;
+}
+.question_shadow .notactive{
+    display: none;
+}
+/* ======================================== end interview tips ================================== */
+/* ======================================== start news ================================== */
+.some_news{
+    padding: 15px 0;
+    box-shadow: 0 0 13px -3px #888;
+    cursor: pointer;
+}
+.news_active .active{
+    background: #0c5e47;
+    color: white;
+}
+.some_news:hover{
+    background: #0c5e47;
+    color: white;
+}
+.news_details{
+    padding: 10px 10px;
+    float: right;
+    width: 100%;
+}
+.news_detail_words{
+    top: -23px;
+    left: 0px;
+    padding: 0 6px
+}
+.news_head_person{
+    float: right;
+    width: 100%;
+    text-align: right;
+    padding: 7px;
+    background: white;
+
+}
+.news_head_para_send{
+    box-shadow: 0 0 13px -3px #888;
+    width:100%
+}
+.h5_font_news{
+    font-size: 16px;
+    color: #0c5e47;
+}
+.person_news{
+    font-size: 12px;
+    display: block;
+    color: #0c5e47;
+}
+.para_news{
+    font-size: 12px;
+    height: 200px
+}
+.button_news{
+    padding: 1px 15px;
+    color: white;
+    background: #0c5e47;
+}
+.button_news:hover{
+    text-decoration: none;
+    color: white
+}
+.image_news_view{
+    max-height: 283px;
+}
+.para_height{
+    height: 102px;
+}
+/* ======================================== end news ================================== */
+/* ======================================== start contact us ================================== */
+.contact_background{
+    background: url(../../images/photo-1504670073073-6123e39e0754.jpeg) no-repeat center center;
+    position: relative;
+    background-size: cover;
+}
+.contact_layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: #0c5e47;
+    opacity: .5;
+}
+.head_contact_us{
+    color: white;
+}
+.button_contact_us_view{
+    background: white;
+    padding: 9px 22px;
+    color: #0c5e47;
+    border: 1px solid #66be44;
+    text-decoration: none;
+}
+.button_contact_us_view:hover{
+    color: white;
+    background: #0c5e47;
+    border: 1px solid #66be44;
+    text-decoration: none;
+}
+/* ======================================== end contact us ================================== */
+/* ======================================== start footer ================================== */
+.background_footer{
+    background: #0c5e47;
+}
+.facebook_color{
+    background: #3b5999
+}
+.twitter_color{
+    background: #55acee;
+}
+.linked_color{
+    background: #0077b5;
+}
+.instegram_color{
+    background: #e4405f;
+}
+.youtube_color{
+    background: #cd201f;
+}
+.social_media{
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 5px;
+    padding: 5px
+}
+.social_media_padding{
+    padding: 0 0 0 75px;
+}
+.footer_para{
+    font-size: 13px;
+}
+.email_direction{
+    direction: rtl;
+}
+.button_email{
+    background: white;
+    padding: 5px 22px;
+    color: #0c5e47;
+    border: 1px solid #66be44;
+}
+.button_email:hover{
+    color: white;
+    background: #0c5e47;
+    border: 1px solid #66be44;
+}
+.head_footer{
+    height: 1px;
+    background: white;
+    width: 100%;
+}
+/* ======================================== end footer ================================== */
+
+/* ============================================================================================================= */
+/* ============================================================================================================= */
+/* ============================================ end index page =============================================== */
+/* ============================================================================================================= */
+/* ============================================================================================================= */
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* ============================================================================================================= */
+/* ============================================================================================================= */
+/* ============================================ start profile personal page =============================================== */
+/* ============================================================================================================= */
+/* ============================================================================================================= */
+
+/* ================ start header personal page ====================== */
+.padding_title{
+    height: 70vh;
+}
+.h1_title{
+    text-shadow: 0px 2px 5px #000;
+    font-weight: bold;
+    font-size: 60px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0,-50%);
+}
+.head_manu{
+    position: absolute;
+    top: -61vh;
+    width: 75%;
+}
+.row_reset{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+/* ================ end header personal page ====================== */
+/* ================ start profile personal page ====================== */
+.row_default{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* start right side of profile personal page */
+
+.image_padding_profile{
+    padding: 25px 55px;
+}
+.image_profile_bg{
+    box-shadow: 0px 0px 0px 5px #66be44;
+}
+.list_profile li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px 25px;
+    border-top: 1px solid gray;
+}
+.list_profile li a:hover{
+    background: white;
+    color: #0c5e47;
+}
+.list_profile li a.active{
+    background: white;
+    color: #0c5e47;
+}
+.list_profile li:last-child a{
+    border-bottom: 1px solid gray;
+}
+.list_profile li a i{
+    margin-left: 10px;
+}
+.social_media_icon{
+    justify-content: space-evenly;
+}
+.social_media_icon a i{
+    color: white;
+    font-size: 40px;
+}
+/* eng right side of profile personal page */
+
+/* start left side of profile personal page */
+.span_file{
+    padding: 35px 0;
+}
+.font_size_cv_i{
+    font-size: 80px;
+}
+.font_link a{
+    text-decoration: none;
+
+}
+.cv_color{
+    color: #000;
+    font-size: 30px;
+}
+/* end left side of profile personal page */
+/* ================ end profile personal page ====================== */
+
+/* ============================================================================================================= */
+/* ============================================================================================================= */
+/* ============================================ end profile personal page =============================================== */
+/* ============================================================================================================= */
+/* ============================================================================================================= */
+
+/* ============================================================================================================= */
+/* ============================================================================================================= */
+/* ============================================ start profile job page =============================================== */
+/* ============================================================================================================= */
+/* ============================================================================================================= */
+
+/* start left side of profile job page */
+.job_card_and_detail{
+    padding: 0 50px;
+    background-color: transparent;
+    /* width: 300px; */
+    /* height: 300px; */
+    perspective: 2000px;
+}
+.job_card_and_detail a{
+    text-decoration: none;
+}
+
+.job_flip{
+    box-shadow: 0 0 10px -2px #000;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+    cursor: pointer;
+}
+.job_card{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    background: white;
+    z-index: 11;
+}
+.job_detail{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    padding: 12px;
+    transform: rotateY(180deg);
+    z-index: -1;
+}
+.job_card, .job_detail{
+    backface-visibility: hidden;
+}
+.job_detail span{
+    margin-bottom: 10px;
+    font-size: 18px
+}
+.job_card_and_detail:hover .job_flip{
+    transform: translateX(-100%) rotateY(180deg);
+}
+
+/* end left side of profile job page */
+
+
+/* ============================================================================================================= */
+/* ============================================================================================================= */
+/* ============================================ end profile job page =============================================== */
+/* ============================================================================================================= */
+/* ============================================================================================================= */
+
+/* ============================================================================================================= */
+/*  start news page  */
+/* ============================================================================================================= */
+
+.news_images{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    /* background: #0c5e47; */
+    /* opacity: .5; */
+}
+.news_images_overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    /* z-index: 0; */
+}
+.image_news{
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.news_calender_like_comment{
+    z-index: 1;
+}
+.news_calelikcommen{
+    height: 70px;
+}
+.news_hover:hover .news_images_overlay{
+    background: #66be44
+}
+.news_disc{
+    margin-bottom: 15px;
+}
+.news_disc h5{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.news_disc a{
+    color: #888;
+    text-decoration: none;
+}
+.news_disc a:hover{
+    color: #66be44;
+}
+.hr_news{
+    background: #000;
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+.news_share{
+    color: #888;
+}
+.news_share a{
+    color: #888;
+    padding: 10px
+}
+.news_share a:hover{
+    color: #66be44;
+}
+.share{
+    padding: 10px;
+}
+.hr_news:first-of-type{
+    margin-top: 15px;
+}
+.hr_news:last-of-type{
+    margin-top: 2px;
+}
+
+/* ============================================================================================================= */
+/*  end news page  */
+/* ============================================================================================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------- start log in--------------------------------------------*/
+#login{
+    padding: 50px 0;
+}
+#login h5{
+    margin-top: 50px;
+    color: #0c5e47;
+}
+#login hr{
+    width: 9%;
+    border-top: 2px solid #0c5e47;
+    margin-top: 14px;
+}
+#login form label{
+    font-weight: bold;
+    font-size: 18px
+}
+#login form input{
+    margin-bottom: 10px;
+    padding-right: 20px
+}
+#login form a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+#login form input[type=submit]{
+    background-color: #0c5e47;
+    color: #fff;
+    border: 1px solid #0c5e47;
+    padding: 10px 20px;
+    margin: 20px 0 50px 0;
+}
+/*---------------------------------------end log in--------------------------------------------*/
+/* ======================================== start contact us page ========================= */
+.div-i-contact i{
+    color: #0c5e47;
+    font-size: 46px;
+    padding-top: 25px
+}
+.h5_contact-us{
+    color: #888888
+}
+.p-contact-us{
+    font-weight: bold;
+    padding-top: 10px;
+}
+.hr-left-vertical{
+    border-left: 1px solid #dddddd
+}
+.form-contact-us input,
+.form-contact-us textarea{
+    margin-bottom: 5px
+}
+.form-contact-us textarea{
+    height: 120px;
+}
+.form-contact-us input[type='submit']{
+    background-color: #0c5e47;
+    color: #ffffff;
+    border: none;
+    padding: 8px 25px;
+    margin-top: 20px;
+}
+/* ======================================== end contact us page =========================== */
+
+/* ======================================== start cv page ================================= */
+.form-cv label{
+    font-weight: bold
+}
+.form-cv input{
+    margin-bottom: 5px
+}
+.form-cv select{
+    padding: .2rem .75rem;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.form-cv input[type='submit']{
+    background-color: #0c5e47;
+    color: #ffffff;
+    border: none;
+    padding: 8px 25px;
+    margin-top: 20px;
+}
+.hr-cv{
+    border-top: 2px solid rgba(0,0,0,.1)
+}
+.form-cv table input {
+    border: none;
+    width: 100%;
+    color: #888888;
+    margin: 0;
+    padding: 10px
+}
+.form-cv table input:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    outline: none
+}
+.form-cv table select {
+    border: none;
+    color: #888888;
+    padding: 10px 5px 5px
+}
+.cvv .table td{
+    padding: 0
+}
+.form-cv table select {
+    outline: none;
+    border:none;
+    width: 100%
+}
+.form-cv table select:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none
+}
+.form-cv thead{
+    background-color: #0c5e47;
+    color: #ffffff
+}
+.bt-color{
+    color: #0c5e47 !important;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+.bt-color:hover{
+    text-decoration: none;
+}
+
+/* ======================================== end cv page =================================== */
+
+/* ======================= start Papers required for travel =============================== */
+.papers-required ul{
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px #888888;
+    list-style: none;
+    padding: 10px;
+    margin: 20px -30px
+}
+.papers-required li{
+    font-weight: bold;
+    padding: 5px 0
+}
+.papers-required ul li:before{
+    content: '\f14a';
+    font-family: 'Font Awesome\ 5 Free';
+    color: #0c5e47;
+    padding: 0 15px 0 10px;
+    font-size: 20px;
+    font-weight: normal
+}
+/* ======================= end Papers required for travel ================================= */
+
+/* ======================= start jobs details ================================= */
+.div-job-details{
+    box-shadow: 0px 0px 0px 2px #e0dae0;
+    font-weight: bold
+}
+.div-job-details h4{
+    color: #0c5e47;
+    font-weight: bold
+}
+.div-job-details .ul-job-details{
+    list-style: none;
+    padding: 0;
+    margin: 4px 0 5px 0
+}
+.div-job-details .ul-job-details li{
+    padding: 3px 0 8px
+}
+.div-job-details .ul-job-details li:before{
+    content: '\f1ad';
+    font-family: 'Font Awesome\ 5 Free';
+    padding-left: 5px
+}
+.div-job-details .ul-job-details li span{
+    color: #0c5e47
+}
+.div-job-details .w-img-40{
+    width: 40% !important
+}
+.div-job-details hr{
+    width: 100%;
+    border-top: 1px solid #0c5e47;
+    padding: 0;
+    margin: 0
+}
+.div-job-details .btn-span{
+    float: right;
+    border: none;
+    background-color: #0c5e47;
+    color: #ffffff;
+    padding: 5px 0;
+    margin-bottom: 15px;
+}
+.div-job-details .div-3-span{
+    float: right
+}
+.div-job-details .div-chevron-left p{
+    margin: 0
+}
+.div-job-details .div-chevron-left p:first-of-type{
+    margin-top: 10px
+}
+.div-job-details .div-chevron-left p:last-child{
+    margin-bottom: 25px
+}
+.div-job-details .div-chevron-left p:before{
+    content: '\f053';
+    font-family: 'Font Awesome\ 5 Free';
+    padding-left: 7px;
+    font-size: 12px;
+    font-weight: bold
+}
+/* ======================= end jobs details ================================= */
+
+/* ======================= start latest news ================================= */
+.div-latest-news,
+.div-latest-news-comments,
+.div-latest-news-replay{
+    box-shadow: 0px 0px 0px 2px #e0dae0;
+    font-weight: bold
+}
+.div-latest-news h4,
+.div-latest-news-comments h4,
+.div-latest-news-replay h4{
+    color: #0c5e47;
+    font-weight: bold
+}
+.div-latest-news span{
+    color: #888888;
+    margin-left: 5%;
+    float:right
+}
+.div-latest-news span i{
+    color: #66be44
+}
+.div-latest-news .span-social i{
+    color: #888888;
+    margin: 0 5px
+}
+.div-latest-news-comments .img-comment{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px 4px #eee;
+}
+.div-latest-news-comments .replay-comment{
+    float: left;
+    cursor: pointer;
+    position: relative;
+    z-index: 9999
+}
+.div-latest-news-comments p{
+    color: #888888
+}
+.div-latest-news-comments input{
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    border-bottom: 1px solid #000;
+    position: relative;
+    bottom: 30px;
+    padding: 10px 0;
+    background-color: transparent
+}
+.div-latest-news-comments input:focus{
+    outline: none
+}
+.div-latest-news-replay textarea{
+    height: 270px;
+}
+.div-latest-news-replay input,
+.div-latest-news-replay textarea{
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    border-bottom: 2px solid #0c5e47;
+    padding: 10px 0;
+    margin-top: 10px
+}
+.div-latest-news-replay input:focus,
+.div-latest-news-replay textarea:focus{
+    outline: none
+}
+.div-latest-news-replay input[type='submit']{
+    background-color: #0c5e47;
+    color: #ffffff;
+    border: none;
+    padding: 8px 25px;
+    margin: 20px 15px 10px 0;
+}
+/* ======================= end latest news ================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================= start bootstrap offset left ================================= */
+.col-xs-offset-right-12 {
+    margin-left: 100%;
+}
+.col-xs-offset-right-11 {
+  margin-left: 91.66666667%;
+}
+.col-xs-offset-right-10 {
+  margin-left: 83.33333333%;
+}
+.col-xs-offset-right-9 {
+  margin-left: 75%;
+}
+.col-xs-offset-right-8 {
+  margin-left: 66.66666667%;
+}
+.col-xs-offset-right-7 {
+  margin-left: 58.33333333%;
+}
+.col-xs-offset-right-6 {
+  margin-left: 50%;
+}
+.col-xs-offset-right-5 {
+  margin-left: 41.66666667%;
+}
+.col-xs-offset-right-4 {
+    margin-left: 33.33333333%;
+}
+.col-xs-offset-right-3 {
+  margin-left: 25%;
+}
+.col-xs-offset-right-2 {
+  margin-left: 16.66666667%;
+}
+.col-xs-offset-right-1 {
+  margin-left: 8.33333333%;
+}
+.col-xs-offset-right-0 {
+  margin-left: 0;
+}
+@media (max-width: 576px) {
+    .logo .w-75 {
+        width: 100%!important;
+    }
+    .all_time .col-2{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+@media (min-width: 768px) {
+  .col-sm-offset-right-12 {
+      margin-left: 100%;
+  }
+  .col-sm-offset-right-11 {
+    margin-left: 91.66666667%;
+  }
+  .col-sm-offset-right-10 {
+    margin-left: 83.33333333%;
+}
+.col-sm-offset-right-9 {
+    margin-left: 75%;
+  }
+  .col-sm-offset-right-8 {
+      margin-left: 66.66666667%;
+  }
+  .col-sm-offset-right-7 {
+    margin-left: 58.33333333%;
+  }
+  .col-sm-offset-right-6 {
+    margin-left: 50%;
+  }
+  .col-sm-offset-right-5 {
+    margin-left: 41.66666667%;
+  }
+  .col-sm-offset-right-4 {
+      margin-left: 33.33333333%;
+  }
+  .col-sm-offset-right-3 {
+    margin-left: 25%;
+  }
+  .col-sm-offset-right-2 {
+    margin-left: 16.66666667%;
+  }
+  .col-sm-offset-right-1 {
+      margin-left: 8.33333333%;
+  }
+  .col-sm-offset-right-0 {
+    margin-left: 0;
+}
+.all_time .col-2{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.all_time .col-2{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+}
+@media (min-width: 992px) {
+  .col-md-offset-right-12 {
+      margin-left: 100%;
+  }
+  .col-md-offset-right-11 {
+    margin-left: 91.66666667%;
+}
+  .col-md-offset-right-10 {
+    margin-left: 83.33333333%;
+}
+  .col-md-offset-right-9 {
+    margin-left: 75%;
+  }
+  .col-md-offset-right-8 {
+    margin-left: 66.66666667%;
+  }
+  .col-md-offset-right-7 {
+    margin-left: 58.33333333%;
+  }
+  .col-md-offset-right-6 {
+    margin-left: 50%;
+  }
+  .col-md-offset-right-5 {
+      margin-left: 41.66666667%;
+  }
+  .col-md-offset-right-4 {
+      margin-left: 33.33333333%;
+  }
+  .col-md-offset-right-3 {
+      margin-left: 25%;
+  }
+  .col-md-offset-right-2 {
+    margin-left: 16.66666667%;
+  }
+  .col-md-offset-right-1 {
+    margin-left: 8.33333333%;
+  }
+  .col-md-offset-right-0 {
+    margin-left: 0;
+}
+.all_time .col-2{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+}
+@media (min-width: 1200px) {
+  .col-lg-offset-right-12 {
+    margin-left: 100%;
+  }
+  .col-lg-offset-right-11 {
+    margin-left: 91.66666667%;
+  }
+  .col-lg-offset-right-10 {
+    margin-left: 83.33333333%;
+  }
+  .col-lg-offset-right-9 {
+    margin-left: 75%;
+  }
+  .col-lg-offset-right-8 {
+    margin-left: 66.66666667%;
+}
+  .col-lg-offset-right-7 {
+    margin-left: 58.33333333%;
+  }
+  .col-lg-offset-right-6 {
+    margin-left: 50%;
+  }
+  .col-lg-offset-right-5 {
+    margin-left: 41.66666667%;
+  }
+  .col-lg-offset-right-4 {
+    margin-left: 33.33333333%;
+  }
+  .col-lg-offset-right-3 {
+    margin-left: 25%;
+  }
+  .col-lg-offset-right-2 {
+    margin-left: 16.66666667%;
+  }
+  .col-lg-offset-right-1 {
+    margin-left: 8.33333333%;
+  }
+  .col-lg-offset-right-0 {
+    margin-left: 0;
+  }
+}
+/* ======================= end bootstrap offset left ================================= */
+
+/* ======================= start responsive ================================= */
+@media (max-width: 1200px) {
+    .job_detail span{
+        font-size: 16px
+    }
+    .clock i {
+        font-size: 35px;
+    }
+    .time_work span {
+        font-size: 15px;
+    }
+    .news_calender_like_comment {
+        font-size: 12px;
+    }
+}
+@media (max-width: 992px) {
+    label{
+        font-size: 13px;
+    }
+    .time_work span{
+        font-size: 16px;
+    }
+    .clock i {
+        font-size: 35px;
+    }
+    .h1_title{
+        font-size: 45px;
+    }
+    .job_detail span{
+        font-size: 13px
+    }
+    .para_news {
+        height: 230px;
+    }
+    .paragraph_about{
+        padding: 0 15%;
+    }
+    .clock{
+        height: 70px;
+    }
+
+    .logo{
+        padding: 20px 0;
+    }
+    .news_detail_words{
+        position: unset !important;
+    }
+    .time_work{
+        float: right;
+        margin-left: 5px;
+    }
+    .news_details {
+        padding: 10px 0px;
+    }
+    .news_detail_words {
+        padding: 0;
+    }
+    .news_calender_like_comment {
+        font-size: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .h1{
+        font-size: 1.75rem
+    }
+    .nnnnews{
+        height: 1430px;
+    }
+    .h1_title{
+        font-size: 40px;
+    }
+    .hr-left-vertical{
+        border: none
+    }
+    .slide_image {
+        height: 75vh;
+    }
+    .h6,h6 {
+        font-size: .75rem;
+    }
+    .div-latest-news-comments .img-comment{
+        width: 15%;
+    }
+    .form-control {
+        font-size: .75rem
+    }
+    .job_detail span{
+        font-size: 14px
+    }
+    .paragraph_about{
+        padding: 0 10%;
+    }
+    .button_arrow{
+        display: none
+    }
+    .carousel-indicators li{
+        width: 34px;
+        height: 6px;
+    }
+    .clock i {
+        font-size: 28px;
+    }
+    .time_work span{
+        font-size: 13px;
+    }
+    .height_paragraph_services{
+        min-height: auto
+    }
+    .height_paragraph_services + h6{
+        min-height: 90px
+    }
+    .clock{
+        height: 50px;
+    }
+    .logo{
+        padding: 20px 0;
+    }
+
+    .time_work{
+        float: right;
+        margin-left: 5px;
+    }
+    .head_manu{
+        position: absolute;
+        top: -50vh;
+    }
+    .news_detail_words{
+        position: unset !important;
+    }
+    .news_details {
+        padding: 10px 0px;
+    }
+    .news_detail_words {
+        padding: 0;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    p{
+        font-size: 14px
+    }
+    .h1_title{
+        font-size: 30px;
+        padding-right: 20px;
+    }
+    .slide_image {
+        height: 66vh;
+    }
+    .padding_title {
+        height: 60vh;
+    }
+    .table{
+        font-size: 13px;
+    }
+    .form-cv table select{
+        font-size: 12px
+    }
+    .hide_all {
+        padding: 0 5px;
+    }
+    .table-mohelat{
+        margin-right: -40px
+    }
+    .clock{
+        height: 50px;
+    }
+    .logo{
+        padding: 20px 0;
+    }
+
+    .time_work{
+        float: right;
+        margin-left: 5px;
+    }
+    .head_manu{
+        position: absolute;
+        top: -40vh;
+    }
+    .news_detail_words{
+        position: unset !important;
+    }
+    .question_h5{
+        font-size: large;
+    }
+    .news_details {
+        padding: 10px 0px;
+    }
+    .news_detail_words {
+        padding: 0;
+    }
+    .news_calender_like_comment {
+        font-size: 1.7vw;
+    }
+
+}
+
+/* ======================= end responsive ================================= */
+
+.setting_bar{
+    display: none !important;
+}
+.setting_bar i{
+    font-size: 20px;
+    color: #0c5e47;
+}
+/* webkit solution */
+::-webkit-input-placeholder { text-align:right; }
+/* mozilla solution */
+input:-moz-placeholder { text-align:right; }
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .setting_bar{
+        background: white;
+        width: 40px;
+        height: 40px;
+        z-index: 2;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px 0 0 10px;
+        box-shadow: 0 0 3px 0px #000;
+    }
+    .sidebar_profile{
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: -100%;
+        transition: 1s linear
+    }
+    .sidebar_profile_left{
+        right: 0;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .setting_bar{
+        background: white;
+        width: 40px;
+        height: 40px;
+        z-index: 2;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px 0 0 10px;
+        box-shadow: 0 0 3px 0px #000;
+    }
+    .sidebar_profile{
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: -100%;
+        transition: 1s linear
+    }
+    .sidebar_profile_left{
+        right: 0;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+
+
+/* start alljob page */
+/* ============================================================================================================= */
+.searchjob{
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    right: 30px;
+    font-size: 25px;
+}
+.head_manu_search{
+    position: absolute;
+    top: -17vh;
+    width: 100%;
+}
+.card .card-body a{
+    color:#66be44;
+    text-decoration: none
+}
+.cardjob:hover{
+    background: #0c5e47;
+    color: white;
+}
+.cardjob:hover h5{
+    color: white;
+}
+@media (max-width: 575.98px) {
+    .head_manu_search {
+        position: absolute;
+        top: -22vh;
+        width: auto;
+    }
+    .input_search{
+        height: 47px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .head_manu_search {
+        position: absolute;
+        top: -25vh;
+        width: 100%;
+    }
+    .input_search{
+        height: 47px;
+    }
+}
+
+/* ============================================================================================================= */
+/* end alljob page */

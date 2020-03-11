@@ -1,0 +1,61 @@
+html,body{
+    font-family: 'Tajawal', sans-serif;
+}
+
+body{
+    text-align: initial;
+}
+
+.fa-check{
+    float: left !important;
+    margin-top: 4px;
+}
+
+p, a, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Tajawal', sans-serif;
+}
+
+.qin_r_text_align_right{
+    text-align: right;
+}
+.carousel-indicators{
+    right: 0;
+}
+
+.ml-auto{
+    margin-right: auto!important;
+    margin-left: 0 !important;
+}
+.navbar-nav li a{
+    font-family: 'Tajawal', sans-serif;
+}
+
+.qin_rotate_deg_180{
+    transform: rotateY(180deg);
+}
+.contact-form{
+    transform: rotateY(180deg);
+}
+
+.ser_section_items .offset-3{
+    margin-right: 25% !important;
+    margin-left: 0 !important;
+}
+.promo-title{
+    font-family: 'Tajawal', sans-serif;
+}
+
+@media (max-width: 768px){
+    body{
+        overflow-x: initial;
+    }
+    .ser_section_items .offset-3{
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    #services .ser_section_items {
+        overflow: initial;
+        height: auto;
+    }
+    
+}
